@@ -1,15 +1,38 @@
-Objective
-The password for the next level is stored in a file called - located in the home directory
+<h1>Bandit Level 1</h1>
 
-How It Was Solved
-The home page over the wire bandit had a section called Helpfull reading material which said (google search dashed filename) so searched it up and i learned that their is a specific way of concatenating a dashed file or a file which has a special character in the beginning of the filename 
+<h2>Objective</h2>
+<p>
+The password for the next level is stored in a file called <code>-</code> located in the home directory.
+</p>
 
-Commands Used
-1.cat 
+<hr>
 
-Key Takeaways & Lessons Learned
-1. concatenating syntax depends upon the filename 
+<h2>How It Was Solved</h2>
+<p>
+While trying to read the file using the <code>cat</code> command, I realized that the filename was only a single dash (<code>-</code>). The OverTheWire Bandit homepage has a section called <b>Helpful Reading Material</b>, which suggested searching for "dashed filename." After reading about it, I learned that files beginning with a dash are treated as command-line options, so they must be referenced differently. I used the correct syntax to successfully display the contents of the file and obtain the password.
+</p>
 
-Picture of Successful Working Image
+<hr>
 
-Password Obtained Successfully and Used to Access the Next Level
+<h2>Commands Used</h2>
+
+<pre><code>cat ./-</code></pre>
+
+<hr>
+
+<h2>Key Takeaways &amp; Lessons Learned</h2>
+
+<ul>
+    <li>Files whose names begin with a dash (<code>-</code>) are interpreted as command-line options.</li>
+    <li>Prefixing the filename with <code>./</code> tells Linux to treat it as a file in the current directory instead of an option.</li>
+</ul>
+
+<hr>
+
+<h2>Picture of Successful Working Image</h2>
+
+<img src="images/bandit1.png" alt="Bandit Level 1 Solution" width="900">
+
+<hr>
+
+<h2>Password Obtained Successfully and Used to Access the Next Level</h2>
