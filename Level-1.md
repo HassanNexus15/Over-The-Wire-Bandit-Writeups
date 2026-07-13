@@ -31,7 +31,11 @@ While trying to read the file using the <code>cat</code> command, I realized tha
 
 <h2>Picture of Successful Working Image</h2>
 
-<img src="images/bandit1.png" alt="Bandit Level 1 Solution" width="900">
+
+
+
+
+
 
 <hr>
 
