@@ -19,3 +19,24 @@ The password for the next level is stored in a file called `--spaces in this fil
 
 ```bash
 cat "./--spaces in this filename--"
+```
+
+or
+
+```bash
+cat ./--spaces\ in\ this\ filename--
+```
+
+---
+
+## Key Takeaways & Lessons Learned
+
+- Filenames containing spaces are interpreted as multiple arguments by the shell.
+- Spaces can be escaped using a backslash (`\`) or the entire filename can be enclosed in quotation marks (`"`).
+- Linux treats spaces as separators between arguments unless instructed otherwise.
+- Reading the documentation and experimenting with different commands helped me better understand how the shell processes filenames.
+
+
+## Password Obtained Successfully and Used to Access the Next Level
+
+*(Password intentionally omitted for ethical reasons.)*
