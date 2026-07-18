@@ -29,8 +29,6 @@ While trying to read the file using the <code>cat</code> command, I realized tha
 
 <hr>
 
-<h2>Picture of Successful Working Image</h2>
-<img width="732" height="1277" alt="Screenshot 2026-07-13 195550" src="https://github.com/user-attachments/assets/5fb81c18-cc5c-40e8-922e-16b4e06acf00" />
 
 
 
